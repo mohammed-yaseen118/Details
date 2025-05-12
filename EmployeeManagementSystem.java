@@ -67,6 +67,15 @@ public class EmployeeManagementSystem {
         Employee emp2 = new Employee(102, "Jane Smith", "IT", 60000);
         Employee emp3 = new Employee(103, "Mike Johnson", "Finance", 55000);
 
+        Employee emp4 = new Employee(101, "John Doe", "HR", 50000);
+        Employee emp5 = new Employee(102, "Jane Smith", "IT", 60000);
+        Employee emp6 = new Employee(103, "Mike Johnson", "Finance", 55000);
+
+
+        manager.addEmployee(emp1);
+        manager.addEmployee(emp2);
+        manager.addEmployee(emp3);
+
         manager.addEmployee(emp1);
         manager.addEmployee(emp2);
         manager.addEmployee(emp3);
